@@ -183,9 +183,6 @@ def plotit(dat, flag):
 
 
 ###############################################################################################################
-
-# TODO - Fix evalflag
-
 MODE = "rflag"
 # MODE = "rflag"
 MUTATION_PROB = 0.030
@@ -198,6 +195,7 @@ TOTAL_GENERATION = 20
 DISPLAY_STEP = 1
 SAVE_OUTPUT = True
 
+#TODO - fix the LOG_DIR
 LOG_DIR = "/Users/bjuncklaus/Dropbox/Evolutionary/Data/results/"
 LOG_FILENAME = LOG_DIR + time.strftime("%Y%m%d-%H%M%S") + "best_fit" + VIS_FILENAME.replace('/', '') + ".txt"
 
